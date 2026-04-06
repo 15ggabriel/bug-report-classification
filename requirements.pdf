@@ -1,0 +1,10 @@
+Requirements
+
+Python3.6+
+
+Packages required:
+pandas
+numpy
+scikit-learn
+nltk
+scipy
