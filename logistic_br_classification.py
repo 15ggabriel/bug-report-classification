@@ -118,7 +118,7 @@ data[text_col] = data[text_col].apply(clean_str)
 # ========== Hyperparameter grid ==========
 # We use logspace for var_smoothing: [1e-12, 1e-11, ..., 1]
 params = {
-    'C': [0.01, 0.1, 1, 10]
+    'C': np.logspace(-12, 0, 13)
 }
 
 # Lists to store metrics across repeated runs
